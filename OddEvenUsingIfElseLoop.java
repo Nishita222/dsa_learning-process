@@ -1,5 +1,5 @@
 import java.util.*;
-public class Odd_Even_using_if_else_LOOP {
+public class OddEvenUsingIfElseLOOP {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int x= sc.nextInt();
