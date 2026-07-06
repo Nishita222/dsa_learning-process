@@ -6,7 +6,7 @@ public class MergeSort {
         int idx2 = mid+1; // it is tracking second array
         int x = 0; // it is tracking merged array
 
-        // while jo tkk tb tkk sort krte jaaenge
+        // while jis tkk tb tkk sort krte jaaenge
         //also ye toh important hai for comparing two arrays maanlo on get complete  
         while (idx1 <= mid && idx2 <= ei) {
             if (arr[idx1] <= arr[idx2]) {
