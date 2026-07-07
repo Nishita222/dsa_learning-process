@@ -1,8 +1,8 @@
-// EXAMPLE FOR ARRAY DEFINITION
-// public class array{
+// EXAMPLE FOR Array DEFINITION
+// public class Array{
 //     public static void main(String[] args ){
-//         // int[] marks = new int[3];  // first way of writing array
-//         int[] marks = {97, 98, 95}; // second way of writing array
+//         // int[] marks = new int[3];  // first way of writing Array
+//         int[] marks = {97, 98, 95}; // second way of writing Array
 //         // marks[0] = 97;  
 //         // marks[1] = 98;
 //         // marks[2] = 95;
@@ -13,11 +13,11 @@
 //     }
 // }
 
-// declaring an array but not initializing it
+// declaring an Array but not initializing it
 
 // import java.util.Scanner;
 
-// public class array{
+// public class Array{
 //     public static void main(String[] args ){
 //         Scanner sc = new Scanner(System.in);
 //         int size = sc.nextInt();
@@ -28,34 +28,34 @@
 //     }
 // }
 
-// declaring and initializing an array 
+// declaring and initializing an Array 
 // import java.util.*;
-// public class array{
+// public class Array{
 //     public static void main(String[] args){
 //         Scanner sc = new Scanner(System.in);
-//         int size = sc.nextInt();  // array ka size lelo
-//         int numbers[] = new int [size]; // define an array of that size
+//         int size = sc.nextInt();  // Array ka size lelo
+//         int numbers[] = new int [size]; // define an Array of that size
 //         for (int i = 0; i < size; i++){
-//             numbers[i] = sc.nextInt();  // initialize value of array
+//             numbers[i] = sc.nextInt();  // initialize value of Array
 //         }
-//         for (int i = 0;i<size ; i++){ // print the value of array
+//         for (int i = 0;i<size ; i++){ // print the value of Array
 //             System.out.println(numbers[i]);
 //         }
 //     }
 // }
 
-//QUESTION: TAKE AN ARRAY AS INPUT FROM USER. SEARCH FOR A GIVEN NUMBER X
+//QUESTION: TAKE AN Array AS INPUT FROM USER. SEARCH FOR A GIVEN NUMBER X
 //          AND PRINT THE INDEX AT WHICH THE NUMBER IS PRESENT. 
 // import java.util.*;
-// public class array{
+// public class Array{
 //     public static void main(String[] args){
 //         Scanner sc= new Scanner(System.in);
-//         System.out.println("Enter the size of array: ");
-//         int size = sc.nextInt();  // array ka size lelo
-//         int numbers[] = new int [size]; // define an array of that size
-//         System.out.println("Enter the values for array: ");
+//         System.out.println("Enter the size of Array: ");
+//         int size = sc.nextInt();  // Array ka size lelo
+//         int numbers[] = new int [size]; // define an Array of that size
+//         System.out.println("Enter the values for Array: ");
 //         for (int i = 0; i < size; i++){
-//             numbers[i] = sc.nextInt(); // initialize value of array
+//             numbers[i] = sc.nextInt(); // initialize value of Array
 //         }
 //         System.out.println("Enter the number to be searched: ");
 //         int x = sc.nextInt(); // take input of number to be searched
@@ -71,16 +71,16 @@
 
 
 // import java.util.*;
-// public class array{
+// public class Array{
 //     public static void main(String[] args){
 //         int[] number = {1, 2, 3, 4, 5};
-//         System.out.println("The length of array is: " + number.length);
+//         System.out.println("The length of Array is: " + number.length);
 //     }
 // }
 
-//QUESTION :Take an array of names as input from the user and print them on the screen.
+//QUESTION :Take an Array of names as input from the user and print them on the screen.
 // import java.util.*;
-// public class array{
+// public class Array{
 //     public static void main(String[] args){
 //         Scanner sc = new Scanner(System.in);
 //         int size = sc.nextInt();
@@ -99,9 +99,9 @@
 // }
 
 
-//QUESTION: Take an array of integers as input from the user and find the minimum and maximum values in the array.
+//QUESTION: Take an Array of integers as input from the user and find the minimum and maximum values in the Array.
 // import java.util.*;
-// public class array {
+// public class Array {
 
 //     // =====================================================================
 //     // WAY 1: void method - prints min & max inside the method
@@ -120,12 +120,12 @@
 //             if (arr[i] > max) max = arr[i];
 //         }
 
-//         System.out.println("Minimum value in the array is: " + min);
-//         System.out.println("Maximum value in the array is: " + max);
+//         System.out.println("Minimum value in the Array is: " + min);
+//         System.out.println("Maximum value in the Array is: " + max);
 //     }
 
 //     // =====================================================================
-//     // WAY 2: returns int[] - returns both min & max as an array
+//     // WAY 2: returns int[] - returns both min & max as an Array
 //     // Use when you need both values in main() for further use
 //     // =====================================================================
 //     public static int[] findMinAndMax_Way2(int[] arr) {
@@ -161,8 +161,8 @@
 //             max = Math.max(max, arr[i]); // cleaner alternative to if (arr[i] > max)
 //         }
 
-//         System.out.println("Minimum value in the array is: " + min);
-//         System.out.println("Maximum value in the array is: " + max);
+//         System.out.println("Minimum value in the Array is: " + min);
+//         System.out.println("Maximum value in the Array is: " + max);
 //     }
 
 //     // =====================================================================
@@ -171,7 +171,7 @@
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter array size: ");
+//         System.out.print("Enter Array size: ");
 //         int size = sc.nextInt();
 //         int[] arr = new int[size];
 
@@ -187,8 +187,8 @@
 //         // --- WAY 2: returns int[], print in main ---
 //         System.out.println("\n--- WAY 2 (returns int[]) ---");
 //         int[] result = findMinAndMax_Way2(arr);
-//         System.out.println("Minimum value in the array is: " + result[0]);
-//         System.out.println("Maximum value in the array is: " + result[1]);
+//         System.out.println("Minimum value in the Array is: " + result[0]);
+//         System.out.println("Maximum value in the Array is: " + result[1]);
 
 //         // --- WAY 3: Math.min/max, print inside ---
 //         System.out.println("\n--- WAY 3 (Math.min & Math.max) ---");
@@ -201,9 +201,9 @@
 //     }
 // }
 
-//QUESTION: Take an array of numbers as input and check if it is an array sorted in ascending order
+//QUESTION: Take an Array of numbers as input and check if it is an Array sorted in ascending order
 // import java.util.*;
-// public class array{
+// public class Array{
     // public static void main(String[] args){
     //     Scanner sc = new Scanner(System.in);
     //     int size = sc.nextInt();
@@ -211,7 +211,7 @@
          
         //=================WAY 1=============================================
         //
-        // input the numbers in array
+        // input the numbers in Array
         // for (int i=0;i<size;i++){
         //     numbers[i] = sc.nextInt();
         // }
@@ -227,9 +227,9 @@
         // }
 
         // if (isAscending) {
-        //     System.out.println("The array is sorted in ascending order.");
+        //     System.out.println("The Array is sorted in ascending order.");
         // } else {
-        //     System.out.println("The array is not sorted in ascending order.");
+        //     System.out.println("The Array is not sorted in ascending order.");
         // }
         //=============WAY 2===================================================
 
@@ -237,7 +237,7 @@
 
 
     // =====================================================================
-    // METHOD: checks if array is sorted in ascending order
+    // METHOD: checks if Array is sorted in ascending order
     // Returns true if sorted, false otherwise
     // =====================================================================
 //     public static boolean isAscending(int[] arr) {
@@ -260,7 +260,7 @@
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter array size: ");
+//         System.out.print("Enter Array size: ");
 //         int size = sc.nextInt();
 //         int[] arr = new int[size];
 
@@ -272,57 +272,52 @@
 //         boolean result = isAscending(arr);
 
 //         if (result) {
-//             System.out.println("The array IS sorted in ascending order.");
+//             System.out.println("The Array IS sorted in ascending order.");
 //         } else {
-//             System.out.println("The array is NOT sorted in ascending order.");
+//             System.out.println("The Array is NOT sorted in ascending order.");
 //         }
 //     }
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import java.util.*;
+public class Array{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println(" input size it cannot exceed 4");
+        int size = sc.nextInt();
+        int[] num = new int[size] ;
+        int target = sc.nextInt();
+        for ( int i = 0 ; i <size ; i++){
+            num[i] = sc.nextInt();
+        }
+        for ( int i =0 ; i<size ; i++){
+            if ( num[0] + num [1] == target){
+                System.out.println( "(" + num[0] + "," + num[1] + ")");
+            }else if( num [0] + num[2] == target){
+                System.out.println("(" + num[0] + "," + num[2] + ")");
+            }else if( num [0] + num[3] == target){
+                System.out.println("(" + num[0] + "," + num[3] + ")");
+            }else if( num [1] + num[2] == target){
+                System.out.println("(" + num[1] + "," + num[2] + ")");
+            }else if( num [1] + num[3] == target){
+                System.out.println("(" + num[1] + "," + num[3] + ")");
+            }else if( num [2] + num[3] == target){
+                System.out.println("(" + num[2] + "," + num[3] + ")");
+            }else {
+                System.out.println("no numbers add upto the target");
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
 
 //Question: Sort an Array of Integers in ascending order
 // import java.util.*;
-// public class array{
+// public class Array{
 //     public static void main(String []args){
 //         int arr[] ={5,7,1,9,2,4};
-//         System.out.println("Original array: " + " ");
+//         System.out.println("Original Array: " + " ");
 //         for (int i=0;i<arr.length;i++){
 //             System.out.print(arr[i] + " ");
 //         }
@@ -336,7 +331,7 @@
 //                 }
 //             }
 //         }
-//         System.out.println("\nSorted array: " + " ");
+//         System.out.println("\nSorted Array: " + " ");
 //         for (int i=0;i<arr.length;i++){
 //             System.out.print(arr[i] + " ");
 //         }
