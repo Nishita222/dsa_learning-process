@@ -1,5 +1,5 @@
 import java.util.*;
-public class floyd_triangle {
+public class FloydTriangle  {
     public static void main(String[] args) {
         int n=5;
         int num =1;
