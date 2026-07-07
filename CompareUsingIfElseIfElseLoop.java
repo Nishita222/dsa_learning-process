@@ -7,7 +7,7 @@ public class CompareUsingIfElseIfElseLoop{
         int b=sc.nextInt();
 
         if(a==b)
-            System.out.println("x is equal to y");           
+            System.out.println("a is equal to b");           
         else if(a>b){
             System.out.println("a is greater than b");  
         }else {
