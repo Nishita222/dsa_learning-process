@@ -1,5 +1,5 @@
 // import java.util.*;
-// public class butterfly_pattern_advp{
+// public class ButterflyPattern{
 //     public static void main( String [] args){
 //        int n=4;
 //        for(int i=1; i<=4; i++){
@@ -46,7 +46,7 @@
 //     }
 // }
  import java.util.*;
- public class butterfly_pattern_advp {
+ public class ButterflyPattern {
     public static void main(String[] args){
         int n=5;
         for (int i=1;i<=n;i++){
