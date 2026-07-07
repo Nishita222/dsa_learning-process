@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class comparision_using_if_elseif_else_Loop{
+public class CompareUsingIfElseIfElseLoop{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a= sc.nextInt();
