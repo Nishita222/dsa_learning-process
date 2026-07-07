@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class forLoop {
+public class ForLoop {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
