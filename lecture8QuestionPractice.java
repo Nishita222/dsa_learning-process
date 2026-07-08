@@ -193,7 +193,7 @@
     // WHY DOES REPEATED SUBTRACTION WORK? 
     // BECAUSE GCD OF TWO NUMBERS ALSO DIVIDES THEIR DIFFERENCE, SO IF WE KEEP SUBTRACTING 
     // THE smaller number from the larger number we will eventually get the GCD when both numbers become equal
-    //🔥 Logic We keep removing the smaller number from the bigger number.
+    //Logic We keep removing the smaller number from the bigger number.
     // Why?
     // Because removing common chunks does NOT change common factors.
     //Keep shrinking bigger number until both become same.
