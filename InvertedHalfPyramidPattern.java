@@ -1,4 +1,4 @@
-public class inverted_half_pyramid_pattern {
+public class InvertedHalfPyramidPattern {
     public static void main(String[] args){
         int n=5;
         for (int i=n;i>=1;i--){ //i-->>i=i-1
