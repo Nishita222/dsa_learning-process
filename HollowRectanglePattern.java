@@ -1,5 +1,5 @@
 import java.util.*;
-public class hollow_rectangle_pattern {
+public class HollowRectanglePattern {
     public static void main(String[] args){
         int n= 4; //variable initialization 4 rows and 5 columns
         int m = 5;
