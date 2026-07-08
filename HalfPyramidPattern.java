@@ -1,4 +1,4 @@
-public class half_pyramid_pattern{
+public class HalfPyramidPattern{
     public static void main(String [] args){
         int n = 5;
         //outer loop
@@ -11,7 +11,7 @@ public class half_pyramid_pattern{
     }
 }
 
-// public class half_pyramid_pattern {
+// public class HalfPyramidPattern {
 
 //     public static void main(String[] args){
 //         int m=4;
